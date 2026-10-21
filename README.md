@@ -2,7 +2,8 @@
 
 > **Status:** 🚧 In Progress  
 > **Type:** Hands-on Cybersecurity Lab  
-> **Focus:** Network Security · Linux Security · Windows / Active Directory
+> **Focus:** Linux Security · Network Security · Windows / Active Directory  
+> **Part of:** [Cybersecurity Portfolio](https://github.com/ShayVishner/cybersecurity-portfolio) — Chapter 1: 🏗️ Build it
 
 ---
 
@@ -12,9 +13,15 @@ The **Secure Infrastructure Lab** is the first project in my cybersecurity portf
 
 The goal of this project is to build a small IT environment and progressively apply security concepts as I advance through my cybersecurity training.
 
+The environment belongs to **ShayVis Ltd**, the fictional organization used throughout my portfolio: a ~60-employee company with an office network, a Windows domain, and a Linux server hosting a customer-facing web portal.
+
 Rather than treating networking, Linux, and Windows security as isolated topics, this project will bring them together into one documented infrastructure environment.
 
 The lab will evolve alongside my **CHCSS + Linux** studies, with configurations, security controls, testing, and documentation added as the relevant concepts are learned and implemented.
+
+The environment built here is the foundation for the rest of the portfolio: it will be tested in Project 02, monitored in Project 03, and investigated in Project 04.
+
+> ShayVis Ltd is fictional. All work is performed in an isolated lab environment that I own.
 
 ---
 
@@ -34,26 +41,19 @@ The project is designed to develop practical experience in:
 
 ---
 
-## 🧱 Lab Areas
+## 🧱 Milestones
 
-### 🌐 Network Security
+The project is developed in three milestones, aligned with my training. Each milestone is completed and documented on its own.
 
-This section will develop as networking and network-security concepts are introduced during my training.
-
-Planned areas include:
-
-- Network architecture and segmentation
-- VLANs and trunking
-- Access Control Lists (ACLs)
-- Port security
-- DHCP and DNS
-- Secure remote access
-- Network traffic analysis
-- Network security validation
+| Milestone | Scope | Aligned with | Status |
+|---|---|---|---|
+| 🐧 01-A · Linux Server Hardening | ShayVis web server | Linux Essentials | 🚧 In Progress |
+| 🌐 01-B · Secure Network Design | ShayVis office network | Networking | ⏳ Planned |
+| 🪟 01-C · Windows & Active Directory Hardening | ShayVis domain | Windows Server & AD | ⏳ Planned |
 
 ---
 
-### 🐧 Linux Security
+### 🐧 01-A · Linux Server Hardening
 
 The Linux portion of the lab will focus on understanding the system before progressively applying security controls.
 
@@ -71,7 +71,24 @@ Planned areas include:
 
 ---
 
-### 🪟 Windows & Active Directory
+### 🌐 01-B · Secure Network Design
+
+This section will develop as networking and network-security concepts are introduced during my training.
+
+Planned areas include:
+
+- Network architecture and segmentation
+- VLANs and trunking
+- Access Control Lists (ACLs)
+- Port security
+- DHCP and DNS
+- Secure remote access
+- Network traffic analysis
+- Network security validation
+
+---
+
+### 🪟 01-C · Windows & Active Directory Hardening
 
 The Windows portion will be added as the relevant topics are covered during my training.
 
@@ -98,6 +115,14 @@ Where appropriate, security controls will be documented using a **Before → Cha
 
 This makes it possible to demonstrate not only what was configured, but also **why the change was made and whether it worked as intended**.
 
+Each significant design decision will be recorded with an ID and its rationale, so it can be traced and tested in later projects of the portfolio.
+
+---
+
+## 🧭 Beyond the Course
+
+Each milestone will separate what was covered in class from what I researched and implemented independently, beyond the course material.
+
 ---
 
 ## 📸 Evidence & Documentation
@@ -120,16 +145,17 @@ Sensitive information, passwords, credentials, private keys, and other secrets w
 
 ## 📈 Project Progress
 
-| Area | Status |
-|---|---|
-| 🌐 Network Infrastructure | ⏳ Planned |
-| 🔐 Network Hardening | ⏳ Planned |
-| 🐧 Linux Configuration | ⏳ Planned |
-| 🛡️ Linux Hardening | ⏳ Planned |
-| 🪟 Windows / Active Directory | ⏳ Planned |
-| 🔒 Windows / AD Hardening | ⏳ Planned |
-| 🧪 Security Validation | ⏳ Planned |
-| 📝 Final Documentation | ⏳ Planned |
+| Milestone | Area | Status |
+|---|---|---|
+| 🐧 01-A | Linux Configuration | 🚧 In Progress |
+| 🐧 01-A | Linux Hardening | ⏳ Planned |
+| 🐧 01-A | Linux Validation & Documentation | ⏳ Planned |
+| 🌐 01-B | Network Infrastructure | ⏳ Planned |
+| 🌐 01-B | Network Hardening | ⏳ Planned |
+| 🌐 01-B | Network Validation & Documentation | ⏳ Planned |
+| 🪟 01-C | Windows / Active Directory | ⏳ Planned |
+| 🪟 01-C | Windows / AD Hardening | ⏳ Planned |
+| 🪟 01-C | Windows Validation & Documentation | ⏳ Planned |
 
 > Progress will be updated as each area is studied, implemented, tested, and documented.
 
@@ -160,9 +186,9 @@ All configurations and commands included in this project should be **reviewed, u
 
 ## 🚀 Current Status
 
-**Project initialization in progress.**
+**Milestone 01-A — Linux Server Hardening is in progress.**
 
-The repository structure and lab environment are currently being prepared.
+The Linux environment is being prepared alongside the Linux Essentials module of my training.
 
 Technical implementation will be added progressively as the relevant cybersecurity concepts are covered during my training.
 
